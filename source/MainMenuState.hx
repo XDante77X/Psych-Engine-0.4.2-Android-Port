@@ -31,7 +31,7 @@ class MainMenuState extends MusicBeatState
 	private var camGame:FlxCamera;
 	private var camAchievement:FlxCamera;
 	
-	var optionShit:Array<String> = ['story_mode', 'freeplay', //#if ACHIEVEMENTS_ALLOWED 'awards', #end 'credits', //#if !switch 'donate', #end 'options'];
+	var optionShit:Array<String> = ['story_mode', 'freeplay', #if ACHIEVEMENTS_ALLOWED 'awards', #end 'credits', #if !switch 'donate', #end 'options'];
 
 	var magenta:FlxSprite;
 	var camFollow:FlxObject;
@@ -105,7 +105,7 @@ class MainMenuState extends MusicBeatState
 			menuItem.updateHitbox();
 		}
 
-		//FlxG.camera.follow(camFollowPos, null, 1);
+		FlxG.camera.follow(camFollowPos, null, 1);
 
         char1 = new Character(700, -130, 'nene', true);
 		char1.setGraphicSize(Std.int(char1.width * 0.8));
