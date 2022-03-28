@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="nene-reshade.png" width="1392" height="849">
+  <SubTexture name="beepboop07" x="0" y="0"  width="349" height="285" frameX="-27" frameY="-6" frameWidth="400" frameHeight="300"/>
+  <SubTexture name="beepboop05" x="0" y="285"  width="351" height="284" frameX="-25" frameY="-6" frameWidth="400" frameHeight="300"/>
+  <SubTexture name="beepboop00" x="0" y="569"  width="351" height="280" frameX="-25" frameY="-10" frameWidth="400" frameHeight="300"/>
+  <SubTexture name="beepboop06" x="349" y="0"  width="350" height="284" frameX="-26" frameY="-6" frameWidth="400" frameHeight="300"/>
+  <SubTexture name="beepboop04" x="351" y="284"  width="347" height="284" frameX="-28" frameY="-7" frameWidth="400" frameHeight="300"/>
+  <SubTexture name="beepboop03" x="351" y="568"  width="348" height="281" frameX="-27" frameY="-9" frameWidth="400" frameHeight="300"/>
+  <SubTexture name="beepboop08" x="698" y="284"  width="347" height="284" frameX="-28" frameY="-6" frameWidth="400" frameHeight="300"/>
+  <SubTexture name="beepboop09" x="699" y="0"  width="347" height="284" frameX="-28" frameY="-6" frameWidth="400" frameHeight="300"/>
+  <SubTexture name="beepboop11" x="1045" y="284"  width="347" height="282" frameX="-28" frameY="-9" frameWidth="400" frameHeight="300"/>
+  <SubTexture name="beepboop10" x="1046" y="0"  width="346" height="284" frameX="-28" frameY="-6" frameWidth="400" frameHeight="300"/>
+  <SubTexture name="beepboop01" x="1045" y="566"  width="347" height="279" frameX="-28" frameY="-11" frameWidth="400" frameHeight="300"/>
+  <SubTexture name="beepboop02" x="699" y="568"  width="344" height="281" frameX="-30" frameY="-9" frameWidth="400" frameHeight="300"/>
+</TextureAtlas>
