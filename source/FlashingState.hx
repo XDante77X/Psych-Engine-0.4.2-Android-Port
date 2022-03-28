@@ -30,9 +30,10 @@ class FlashingState extends MusicBeatState
 			Press ESCAPE to ignore this message.\n
 			You've been warned!
 			Random Engine by randomxd/n
+            Mod Ported and Optimized by Jere/n
 			Psych Port by Saw and Sirox",
 			32);
-		warnText.setFormat("VCR OSD Mono", 32, FlxColor.WHITE, CENTER);
+		warnText.setFormat("vcr.ttf", 32, FlxColor.WHITE, CENTER);
 		warnText.screenCenter(Y);
 		add(warnText);
 
