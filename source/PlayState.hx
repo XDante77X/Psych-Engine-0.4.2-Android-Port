@@ -980,7 +980,7 @@ class PlayState extends MusicBeatState
 		switch (SONG.song.toLowerCase())
 		{
 			case '2hot':
-				credits = 'yo ?';
+				credits = 'kill moldy';
 			case 'darnell':
 				credits = 'Fisk primero promo';
 			case 'lit-up':
@@ -1002,18 +1002,15 @@ class PlayState extends MusicBeatState
 			textYPos = healthBarBG.y + 30;
 		}
 		// Add Kade Engine watermark
-		kadeEngineWatermark = new FlxText(4, textYPos, 0,
-		SONG.song
-		+ " - " + engineName + "Engine (PE 0.4.2)", 16);
-		kadeEngineWatermark.setFormat(Paths.font("vcr.ttf"), 16, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		kadeEngineWatermark = new FlxText(5, FlxG.height - 24, 0, 
+		SONG.song + " - " + CoolUtil.difficultyString() + engineName + "Engine (PE 0.4.2)", 16);
+		kadeEngineWatermark.setFormat(Paths.font("vcr.ttf"), 16, FlxColor.WHITE, RIGHT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		kadeEngineWatermark.scrollFactor.set();
-		kadeEngineWatermark.borderSize = 1.25;
 		add(kadeEngineWatermark);
 
 		creditsWatermark = new FlxText(4, healthBarBG.y + 50, 0, credits, 16);
-		creditsWatermark.setFormat(Paths.font("vcr.ttf"), 16, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		creditsWatermark.setFormat(Paths.font("vcr.ttf"), 16, FlxColor.WHITE, RIGHT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		creditsWatermark.scrollFactor.set();
-		creditsWatermark.borderSize = 1.25;
 		add(creditsWatermark);
 
 		iconP1 = new HealthIcon(boyfriend.healthIcon, true);
